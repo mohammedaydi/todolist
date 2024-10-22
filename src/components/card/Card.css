@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.card-content {
+  flex: 2;
+}
+
+.card-actions {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-actions button {
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+.card-actions button:nth-child(2) {
+  background-color: orange;
+}
+
+.text-done {
+  text-decoration: line-through;
+}
