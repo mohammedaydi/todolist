@@ -44,3 +44,20 @@
 .board-add button:hover {
   background-color: #ccc;
 }
+
+@media only screen and (max-width: 790px) {
+  .board {
+    padding: 2rem 2rem;
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .board-header {
+    text-align: center;
+    font-size: 0.6rem;
+  }
+
+  .board {
+    padding: 2rem 2vw;
+  }
+}
