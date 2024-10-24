@@ -28,7 +28,7 @@ const Board = (props) => {
         ))}
       </div>
       <div className="board-add">
-        <button>Add</button>
+        <button onClick={props.openPopup}>Add</button>
       </div>
     </div>
   );
